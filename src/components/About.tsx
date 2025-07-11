@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section className="py-20 bg-warm-gradient">
+    <section id="about" className="py-20 bg-warm-gradient">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>

@@ -19,7 +19,7 @@ export function Newsletter() {
   };
 
   return (
-    <section className="py-20 bg-hero-gradient">
+    <section id="newsletter" className="py-20 bg-hero-gradient">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
           Stay in the Loop

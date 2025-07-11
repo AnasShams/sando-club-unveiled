@@ -21,10 +21,20 @@ export function Hero() {
           Artisanal sandwiches crafted with passion. Coming soon to satisfy your cravings.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="hero" size="xl" className="min-w-[200px]">
+          <Button 
+            variant="hero" 
+            size="xl" 
+            className="min-w-[200px]"
+            onClick={() => document.getElementById('newsletter')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Join the Waitlist
           </Button>
-          <Button variant="outline" size="xl" className="min-w-[200px] bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20">
+          <Button 
+            variant="outline" 
+            size="xl" 
+            className="min-w-[200px] bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20"
+            onClick={() => document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             View Menu
           </Button>
         </div>
